@@ -24,6 +24,16 @@ public class Apple extends Phone implements IApple {
     }
 
     @Override
+    public void openPhone()  {
+        System.out.println("Apple ile telefonu açabilirsiniz.");
+    }
+
+    @Override
+    public void closePhone()  {
+        System.out.println("Apple ile telefonu kapatabilirsiniz.");
+    }
+    
+    @Override
     public void videoCall() {
         System.out.println("Apple ile görüntülü arama yapabiliyorsunuz.");
     }
