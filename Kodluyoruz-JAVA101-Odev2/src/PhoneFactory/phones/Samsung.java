@@ -24,6 +24,16 @@ public class Samsung extends Phone implements ISamsung {
         System.out.println("Samsung ile mesaj gönderebiliyorsunuz.");
     }
 
+        @Override
+    public void openPhone()  {
+        System.out.println("Samsung ile telefonu açabilirsiniz.");
+    }
+
+    @Override
+    public void closePhone()  {
+        System.out.println("Samsung ile telefonu kapatabilirsiniz.");
+    }
+    
     @Override
     public void fileSharing() {
         System.out.println("Samsung ile dosya paylaşımı yapabiliyorsunuz.");
