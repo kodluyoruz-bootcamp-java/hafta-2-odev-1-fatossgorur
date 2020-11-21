@@ -10,12 +10,16 @@ public class Main {
         iphone11.getInfo();
 
         s20.call();
+        s20.openPhone();
+        s20.closePhone();
         s20.sendSms();
         s20.fileSharing();
         s20.listenTomp3();
 
-        iphone11.sendSms();
         iphone11.call();
+        iphone11.openPhone();
+        iphone11.closePhone();
+        iphone11.sendSms();
         iphone11.videoCall();
         iphone11.screenSharing();
 
