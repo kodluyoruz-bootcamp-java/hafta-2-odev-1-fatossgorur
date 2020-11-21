@@ -22,6 +22,10 @@ public abstract class Phone {
     public abstract void call();
 
     public abstract void sendSms();
+    
+    public abstract void openPhone();
+
+    public abstract void closePhone();
 
     public String getModelName() {
         return modelName;
